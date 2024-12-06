@@ -1,0 +1,109 @@
+#header-nav {
+    background-color: grey;
+    border-radius: 0;
+    border: 3px solid black;
+    text-align: left;
+
+
+  }
+
+
+  .navbar-brand {
+    /* padding-top: 25px; */
+    left:35px;
+    bottom: 5px;
+
+
+
+  }
+
+  .navbar-brand h1 { /* Restaurant name */
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top:2px;
+    margin-left:0px;
+    padding-bottom: 0;
+
+  }
+
+.navbar-header button.navbar-toggle, .icon-bar {
+    border: 3px solid black;
+}
+
+.navbar-header button.navbar-toggle:hover {
+    border: 3px solid white;
+    background-color: gray;
+}
+
+.navbar-header button.navbar-toggle:hover .icon-bar {
+    border: 3px solid white;
+}
+
+
+#collapsable-nav {
+    width: 767px;
+    background-color: none;
+    text-align: center;
+    border:none;
+
+
+}
+
+#nav-list{
+    background:white;
+    margin-bottom:0;
+
+    /* border:1px solid black; */
+}
+
+#nav-list a {
+    border: 3px solid black;
+}
+
+#nav-list a span {
+    font-size: 1.5em;
+    color: black;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+
+#main-content {
+    border: none;
+    background-color: grey;
+    margin: 0 auto 0 auto;
+    width:97%;
+    /* Remove the direct margins */
+}
+
+
+@media (max-width: 767px) {
+
+
+    #main-content{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+
+
+      #header-nav {
+        background-color: grey;
+        border-radius: 0;
+        border: 3px solid black;
+        text-align: left;
+
+
+
+      }
+
+}
